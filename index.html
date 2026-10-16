@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head><style>
+        body{background-color: aquamarine;}
+    h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+font-style: oblique;
+color: brown;}
+h2{text-align: center;}
+@keyframes slidinganimation{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(80vw);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }}
+.Image{
+    width:100%;
+    overflow:hidden;
+}
+.Image img{
+    width: 150 px;
+    position: relative;
+    animation: slidinganimation 10s infinite linear;
+}
+h3{color: rgb(17, 10, 1);
+display:inline-block;
+position: relative;
+animation: slidinganimation 10s infinite linear;}
+    </style></head>
+    <body>
+        <h1>LEVEL-UP </h1>
+        <h2>An improvement tracker, but better</h2>
+        <h2>Start now,don't leave for later.</h2>
+        <h3>Doreamon says"You can do it!"</h3>
+        <div class="Image">
+            <img src="doreamonn.jpg">
+        </div>
+        <a href="improvtrac.html">YES, I CAN! &rarr;</a>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head><style>
+   body{background-color: rgba(227, 230, 22, 0.801);}
+   h1,h2{text-align: center;
+color: darkblue;}
+@keyframes slidinganimation{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(80vw);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.Image{
+    width:100%;
+    overflow:hidden;
+}
+.Image img{
+    width: 150 px;
+    position: relative;
+    display:block;
+    animation: slidinganimation 10s infinite linear;
+}
+    </style></head>
+    <body>
+        <h1>A cozy space,designed according to your pace. </h1>
+        <h2>Keep becoming a better version of yourself everyday!</h2>
+     <div class="Image">
+        <img src="oggy.png">
+     </div>
+     <h3>Thankyou for your valuable time!</h3>
+    </body>
+</html>
